@@ -7,7 +7,6 @@ import Catalog from "./components/Catalog";
 function App() {
   return (
     <Provider store={store}>
-      <h1>Hello World</h1>
       <Catalog />
     </Provider>
   );
