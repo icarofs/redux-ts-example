@@ -5,8 +5,8 @@ const INITIAL_STATE: ICartState = {
   items: [],
 };
 
-//modificado para arrow function para conseguir tipar.
-const cart: Reducer<ICartState> = () => {
+const cart: Reducer<ICartState> = (state, action) => {
+  console.log(state, action);
   return INITIAL_STATE;
 };
 
